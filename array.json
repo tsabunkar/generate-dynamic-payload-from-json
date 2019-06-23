@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "4427216a-570f-47b2-a9ad-5b67ccedf98a",
+    "group": "behavior",
+    "name": "cameraEnabled",
+    "actions": "retrieve update subscribe delete",
+    "canonical_name": "behavior.cameraEnabled",
+    "data_type": "string",
+    "regex_values": "on|off",
+    "default": "on",
+    "label": "Enable camera",
+    "payload": true
+  },
+  {
+    "uuid": "e753eab0-bf43-4227-ae7a-969e504193f2",
+    "group": "system",
+    "name": "location",
+    "actions": "retrieve update subscribe delete",
+    "canonical_name": "system.location",
+    "data_type": "string",
+    "regex_values": ".{1,128}",
+    "default": "Bose",
+    "label": "System location",
+    "payload": "Bose"
+  },
+  {
+    "uuid": "f846143b-b1cb-4c36-a036-9053208ae379",
+    "group": "system",
+    "name": "profileName",
+    "actions": "retrieve update subscribe delete",
+    "canonical_name": "system.profileName",
+    "data_type": "string",
+    "regex_values": ".*",
+    "default": "",
+    "label": "Profile name",
+    "payload": "efw"
+  }
+]
